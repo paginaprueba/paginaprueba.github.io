@@ -1,0 +1,9 @@
+name: "Cálculo I"
+output_dir: docs
+navbar:
+  title: "Cálculo I"
+  left:
+    - text: "Inicio"
+      href: index.html
+    - text: "Notas"
+      href: about.html
