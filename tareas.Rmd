@@ -1,0 +1,7 @@
+---
+title: "Tareas"
+---
+
+Aquí irán las tareas.
+
+Más tarde agrego una tabla con un ejemplo de cómo se ven.

@@ -1,0 +1,20 @@
+---
+title: "Plan de trabajo"
+---
+
+# PLAN DE TRABAJO
+
+ 1. Para desarrollar plenamente el curso, los recursos principales serán:
+ 
+  - Vídeos explicativos de cada uno de los temas.
+  - Notas tanto de teoría como de ejemplos de cada uno de los temas.
+  - Algunas sesiones en vivo para resolver dudas sobre las listas de problemas.
+
+
+ 2. Las actividades anteriores serán llevadas a cabo en el horario del curso.
+
+
+ 3. La primera sesión será en vivo y servirá para presentarnos así como para puntualizar cómo será el desarrollo del curso.
+
+<!-- También, se ha creado un foro (al que se les invita a inscribirse), donde se espera que formulen sus preguntas acerca de los temas, las ayudantías y las tareas. -->
+ 4. Como es usual, tendremos comunicación permanente vía correo electrónico.

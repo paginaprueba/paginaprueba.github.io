@@ -5,5 +5,18 @@ navbar:
   left:
     - text: "Inicio"
       href: index.html
+    - text: "Evaluación"
+      href: evaluacion.html
     - text: "Notas"
-      href: about.html
+      href: https://calculos.github.io/
+    - text: "Plan de trabajo"
+      href: plan.html
+    - text: "Tareas"
+      href: tareas.html
+    - text: "Temario"
+      href: archivos/c4-temario.pdf
+    - text: "Referencias"
+      href: referencias.html
+output:
+    html_document:
+      theme: darkly

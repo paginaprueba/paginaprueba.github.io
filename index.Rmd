@@ -1,9 +1,39 @@
 ---
-title: "Primera página"
+title: "Cálculo diferencial e integral I"
 ---
 
-Hello, Website!
+# ¡Bienvenidos!
 
-For more information about simple R Markdown websites, please read the documentation at https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html.
+En esta página encontrarán toda la información necesaria acerca del curso:
 
-Please also note that simple R Markdown sites are _not_ based on **blogdown**. They are probably good for websites with only a few Rmd documents. For larger-scale and more sophisticated websites (such as blogs), you may want to use **blogdown** instead: https://github.com/rstudio/blogdown.
+ - Notas
+ - Enlaces a los vídeos
+ - Acceso al Foro
+ - Tareas
+ - Calificaciones
+ - Temario
+ - Referencias
+
+
+# Avisos
+
+ * Aquí aparecerán las actualizaciones que se hagan a la página.
+ * Aviso de ejemplo: vea las indicaciones en la sección de [avisos.html](AVISOS)
+
+
+# Quienes somos
+
+```{r echo = FALSE}
+library(kableExtra)
+tbl_img <- data.frame(
+  fotos = "",
+  nombre = c("Nombre1", "Nombre2"),
+  correo = c("correo1@prueba", "correo2@prueba")
+)
+tbl_img %>%
+  kbl(booktabs = T) %>%
+  kable_paper(full_width = F) %>%
+  column_spec(1, image = "images/persona.png")
+```
+
+
