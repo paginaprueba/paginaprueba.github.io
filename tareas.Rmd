@@ -2,6 +2,22 @@
 title: "Tareas"
 ---
 
-Aquí irán las tareas.
+```{r, include=FALSE}
+tutorial::go_interactive()
+```
 
-Más tarde agrego una tabla con un ejemplo de cómo se ven.
+
+```{r}
+a <- 2
+b <- 3
+
+a + b
+```
+
+
+```{python}
+a = 2
+b = 3
+
+print(a + b)
+```

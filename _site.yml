@@ -19,5 +19,7 @@ navbar:
       href: referencias.html
 output:
     html_document:
+      self_contained: false
+      # la linea anterior garantiza que siempre tendremos la versión actual de DataCamp
       theme: darkly
       type: inverse
