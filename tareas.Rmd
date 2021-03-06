@@ -6,10 +6,16 @@ title: "Tareas"
 tutorial::go_interactive()
 ```
 
+DCL.init();
+
+<!--
+la linea anterior inicializa la sesión al parecer. ver
+https://cdn.datacamp.com/dcl-react-prod/index.html
+-->
 
 ```{r}
-a <- 2
-b <- 3
+a <- 3
+b <- 4
 
 a + b
 ```
