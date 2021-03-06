@@ -19,13 +19,13 @@ navbar:
       href: referencias.html
 output:
     html_document:
-      css: css/style.css
+      #css: css/style.css
       self_contained: false
       # la linea anterior garantiza que siempre tendremos la versión actual de DataCamp
       theme: darkly
       type: inverse
       includes:
-        in_header: dc.html
+        in_header: "dc.html"
       # ver
       # https://stackoverflow.com/questions/65031625/how-to-use-datacamps-tutorial-package-to-insert-r-exercises-in-xaringan-slides
       # para entender la línea anterior
