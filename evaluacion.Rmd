@@ -3,3 +3,7 @@ title: "Evaluación"
 ---
 
 Aquí dirá como será la evaluación.
+
+```{r}
+xaringanExtra::embed_xaringan(  url = "https://asg100.github.io/xaringan", "4:3")
+```
