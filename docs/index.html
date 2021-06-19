@@ -354,10 +354,46 @@ Nombre2
 </table>
 </div>
 
-<div class="comments-go-here"></div>
-<script src="https://comments.yoursite.com/embed.js"
-    data-schnack-slug="post-slug"
-    data-schnack-target=".comments-go-here">
+<script src="https://utteranc.es/client.js"
+        repo="paginaprueba/comentarios"
+        issue-term="pathname"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+        (function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\$[^$]/.test(text) && /[^$]\$$/.test(text)) {
+        text = text.replace(/^\$/, '\\(').replace(/\$$/, '\\)');
+        code.textContent = text;
+      }
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$(.|\s)+\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+})();
+</script>
+<!---
+Ver para más detalles de cómo hacer la migración de la manera en la cual lo hice
+https://ljvmiranda921.github.io/notebook/2021/03/26/migrating-from-disqus-to-utterances/
+
+Más detalles se pueden encontrar en el siguiente
+https://lazywinadmin.com/2019/04/moving_blog_comments.html
+--->
+
+
+<script src="//yihui.org/js/math-code.js"></script>
+<!-- Just one possible MathJax CDN below. You may use others. -->
+<script async
+  src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
 
