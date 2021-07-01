@@ -3,8 +3,3 @@ title: "Referencias"
 ---
 
 Aquí van a estar los libros (aunque esto se puede quitar y dejarlo en la página principal).
-
-
-
-<div id="comments"></div>
-<script src="http://localhost:3000/min/kucos.min.js"></script>
