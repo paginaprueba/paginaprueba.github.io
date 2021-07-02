@@ -26,7 +26,7 @@ output:
       type: inverse
       includes:
         in_header: "dc.html"
-        after_body: comments4.html
+        after_body: comments.html
       # ver
       # https://stackoverflow.com/questions/65031625/how-to-use-datacamps-tutorial-package-to-insert-r-exercises-in-xaringan-slides
       # para entender la línea anterior
